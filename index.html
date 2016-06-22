@@ -6,6 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deondre Ng</title>
+    <link rel="stylesheet" href="/assets/css/animate.css">
     <link rel="stylesheet" href="/assets/css/app.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800|Lato:400,300,900' rel='stylesheet' type='text/css'>
@@ -15,7 +16,7 @@
     <section>
       <div class="row">
         <div class="large-12 columns">
-          <img src="/assets/img/dodie.jpg" alt="" id="profile-image"/>
+          <img src="/assets/img/dodie.jpg" alt="" id="profile-image" class="animated bounceInDown"/>
           <h1 class="text-center">Hi, I'm <span>Deondre Ng</span></h1>
           <p class="text-center">But most people call me <strong>Dodie</strong></p>
         </div>
@@ -35,7 +36,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-4 columns">
+        <div class="large-4 columns wow fadeInLeft">
           <a href="http://jobfair.upcapes.org/" target="_blank">
             <img src="/assets/img/websites/2.svg" alt="Jobfair Logo" class="centered" width=100 />
           </a>
@@ -44,7 +45,7 @@
             AngularJS | Firebase | <a href="http://jobfair.upcapes.org/" target="_blank">Link</a>
           </p>
         </div>
-        <div class="large-4 columns">
+        <div class="large-4 columns wow fadeInLeft" data-wow-delay=".5s">
           <img src="/assets/img/websites/1.svg" alt="Plato Logo" class="centered" width=100 />
           <h3 class="text-center">Plato PH</h3>
           <p class="text-center">
@@ -81,13 +82,13 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-4 columns">
+        <div class="large-4 columns wow zoomIn">
           <a href="https://www.flickr.com/photos/dmartinng/14113626984/in/dateposted-public/" target="_blank"><img src="/assets/img/photos/1.jpg" alt="" /></a>
         </div>
-        <div class="large-4 columns">
+        <div class="large-4 columns wow zoomIn" data-wow-delay=".2s">
           <a href="https://www.flickr.com/photos/dmartinng/19325508855/in/dateposted-public/" target="_blank"><img src="/assets/img/photos/2.jpg" alt="" /></a>
         </div>
-        <div class="large-4 columns">
+        <div class="large-4 columns wow zoomIn" data-wow-delay=".4s">
           <a href="https://www.flickr.com/photos/dmartinng/24363630709/in/dateposted-public/" target="_blank"><img src="/assets/img/photos/3.jpg" alt="" /></a>
         </div>
       </div>
@@ -102,5 +103,8 @@
     
 
     <script src="/assets/js/app.js"></script>
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
   </body>
 </html>
