@@ -14,7 +14,8 @@
   </head>
   <body>
 
-    <section>
+    <section id="header">
+      <canvas id="myCanvas" width="300" height="300"></canvas>
       <div class="row">
         <div class="large-12 columns">
           <img src="/assets/img/dodie.jpg" alt="" id="profile-image" class="animated bounceInDown"/>
@@ -104,6 +105,9 @@
     </footer>
     
 
+    <script src="/assets/paper-full.min.js"></script>
+    <script src="/assets/isMobile.min.js"></script>
+    <script type="text/paperscript" canvas="myCanvas" src="/assets/paper.js"></script>
     <script src="/assets/js/app.js"></script>
     <script type="text/javascript">
       new WOW().init();
